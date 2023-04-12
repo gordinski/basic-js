@@ -32,7 +32,6 @@ function dateSample(sampleActivity) {
   const age = Math.ceil(Math.log(MODERN_ACTIVITY / sampleActivityNum) / k)
 
   return age
-
 }
 
 module.exports = {
